@@ -19,5 +19,5 @@ allprojects {
 
 
 ext {
-    daggerVersion = "2.8"
+    daggerVersion = "2.11"
 }
