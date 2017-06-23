@@ -4,12 +4,12 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 
 import javax.inject.Qualifier;
+import javax.inject.Scope;
 
 /*
- * Created by shivam on 22/6/17.
+ * Created by shivam on 23/6/17.
  */
-@Qualifier
+@Scope
 @Retention(RetentionPolicy.RUNTIME)
-public @interface ApplicationContext {
-    //Annotation to distinguish application context from activity context
+public @interface PerActivity {
 }
